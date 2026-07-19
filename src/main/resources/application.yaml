@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: market-data-engine
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/marketdata
+
+kafka:
+  bootstrap-servers: localhost:9093
